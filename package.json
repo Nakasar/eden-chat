@@ -1,0 +1,29 @@
+{
+  "name": "eden-chat",
+  "version": "1.0.0",
+  "description": "A chat system for massive multiplayer games that is connected and accesible via external apps and agents.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nakasar/eden-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nakasar/eden-chat/issues"
+  },
+  "homepage": "https://github.com/Nakasar/eden-chat#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2"
+  }
+}
